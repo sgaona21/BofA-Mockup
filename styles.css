@@ -4,3 +4,36 @@
     margin: 0;
     list-style: none;
 }
+
+.primary-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(228, 228, 228);
+    width: 90%;
+    margin: auto;
+}
+
+.primary-nav-left {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.primary-nav-left li {
+    padding: 0 .75rem .25rem .75rem;
+}
+
+.primary-nav-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.primary-nav-right li {
+    padding: 0 .75rem .25rem .75rem;
+}
+
+#bofa-32 {
+    position: relative;
+    top: 5px;
+}
